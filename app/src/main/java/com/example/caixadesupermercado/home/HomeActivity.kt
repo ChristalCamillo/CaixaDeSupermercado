@@ -19,7 +19,6 @@ class HomeActivity : AppCompatActivity() {
     private lateinit var quantidade: String
     private lateinit var valorDoProduto: String
 
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityHomeBinding.inflate(layoutInflater)
