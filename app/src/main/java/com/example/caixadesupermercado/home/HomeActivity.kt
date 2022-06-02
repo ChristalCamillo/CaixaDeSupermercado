@@ -25,9 +25,9 @@ class HomeActivity : AppCompatActivity() {
         binding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.title = getString(R.string.caixa_supermercado)
-       // binding.button.setOnClickListener {
-            //enviarDadosCarrinho()
-       // }
+        binding.button.setOnClickListener {
+            enviarDadosCarrinho()
+       }
     }
 
     private fun enviarDadosCarrinho() {
